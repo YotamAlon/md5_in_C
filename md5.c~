@@ -1,0 +1,13 @@
+#include <"md5.h">
+#include <std.h>
+
+void public main(char **args)
+{
+	printf("Please enter the phrase to hash (limited to 100 characters):");
+	char *input;
+	gets(input, 100);
+	bitset bits = new bitset(input);
+	int length = bitset.size;
+	
+	
+}
